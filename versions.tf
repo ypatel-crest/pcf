@@ -1,4 +1,5 @@
 terraform {
+ /*
  cloud {
     organization = "splunkpcf"
 
@@ -6,7 +7,7 @@ terraform {
       name = "splunkpcf"
     }
   }
-
+  */
   required_providers {
     aws = {
       source  = "hashicorp/aws"
